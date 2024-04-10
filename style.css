@@ -1,0 +1,81 @@
+body {
+    color: rgb(10, 10, 10) !important;   
+    background-color: #F9EFDB !important;
+    font-family: 'Montserrat', !important; 
+    font-size: 17px !important;
+    text-align: left !important;
+}
+
+h1, h2, h3 {
+    text-align: left;
+    color: rgb(10, 10, 10);
+    margin: 10px;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+a {
+    color: #2C7865 !important;
+    transition: color 0.3s ease;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: deeppink !important;
+    text-decoration: underline !important; 
+}
+
+div {                       
+    padding: 10px;                           
+    border-radius: 40px;                    
+}
+
+.hello {
+    text-align: center;
+    padding: 50px;
+}
+
+.perfect-circle img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.perfect-circle {
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+}
+
+.d-grid .btn {
+    text-align: center;
+    background-color: #F9EFDB ;
+    border: none;
+    color: black;
+}
+
+.header {
+    height: 15vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+
+.welcome {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
